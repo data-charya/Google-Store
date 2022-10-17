@@ -301,12 +301,14 @@ section {
   margin-top: 40px;
 }
 .pass {
+  width: 40vw;
   border-radius: 30px;
-  padding: 20px;
+  padding: 20px 25px;
   background-color: #d6e2db;
 }
 .switch {
-  padding: 30px;
+  width: 40vw;
+  padding: 30px 25px;
   border-radius: 30px;
   background-color: #efddcd;
 }
@@ -314,4 +316,80 @@ section {
 .duo-img {
   padding-top: 30px;
   margin-bottom: -22px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.duo-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.duo-desc h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: "ProductBold";
+  padding: 20px 0px;
+}
+.duo-desc p {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.sustain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10rem 2rem;
+}
+
+.sus-img {
+  width: 40vw;
+}
+.sus-desc {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10rem;
+  align-items: flex-start;
+}
+
+.sus-desc h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: "ProductBold";
+}
+
+.sus-desc p {
+  margin: 0;
+  padding: 2rem 0;
+  width: 65%;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10rem 2rem;
+  gap: 20px;
+}
+
+.get-watch {
+  width: 40vw;
+  border-radius: 30px;
+  padding: 20px 25px;
+  background-color: #f3f2f1;
+}
+
+.earbuds {
+  width: 40vw;
+  border-radius: 30px;
+  padding: 20px 25px;
+  background-color: #e7ebee;
 }

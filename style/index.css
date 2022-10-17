@@ -390,6 +390,34 @@ section {
 .earbuds {
   width: 40vw;
   border-radius: 30px;
-  padding: 20px 25px;
+  padding: 40px 25px;
   background-color: #e7ebee;
+}
+
+.shop p {
+  font-size: 1.2rem;
+}
+
+.new-store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12rem;
+}
+.store-img img {
+  border-radius: 30px;
+}
+.store-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.store-details h2 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "ProductBold";
 }

@@ -200,7 +200,6 @@ section {
   overflow-x: scroll;
   max-width: 1100px;
   min-height: 500px;
-  gap: 20px;
 }
 
 .scroll-box::-webkit-scrollbar {
@@ -224,6 +223,7 @@ section {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  padding: 0px 10px;
 }
 
 .card-img {

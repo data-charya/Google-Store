@@ -16,6 +16,11 @@
     <nav class="navbar">
       <div class="navlinks">
         <div class="logo">
+          <div class="hamburger hide" id="ham">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+          </div>
           <a href="/"
             ><img src="/assets/images/logo.png" alt="" width="26" height="26"
           /></a>
@@ -68,7 +73,7 @@
       <h2>Popular on the Google Store.</h2>
       <div class="safearea">
         <div class="left">
-          <div class="circlebutton">
+          <div class="circlebutton" onclick="scroll_left()">
             <span class="material-symbols-outlined"> arrow_back </span>
           </div>
         </div>
@@ -126,8 +131,7 @@
           <!-- End product card -->
           <!-- Product card -->
           <div class="card">
-            <div class="card-img">
-              <div class="new">New</div>
+            <div class="card-img pb-5">
               <img
                 src="/assets/images/pixel_buds.webp"
                 alt="Pixel buds pro"
@@ -177,8 +181,7 @@
           <!-- End product card -->
           <!-- Product card -->
           <div class="card">
-            <div class="card-img">
-              <div class="new">New</div>
+            <div class="card-img pb-5">
               <img
                 src="/assets/images/cast.webp"
                 alt="Chromecast"
@@ -193,10 +196,9 @@
           </div>
           <!-- End product card --><!-- Product card -->
           <div class="card">
-            <div class="card-img">
-              <div class="new">New</div>
+            <div class="card-img pb-5">
               <img
-                src="/assets/images/door.webp"
+                src="/assets/images/nestcam.webp"
                 alt="Nest cam"
                 width="212"
                 height="248"
@@ -210,8 +212,7 @@
           <!-- End product card -->
           <!-- Product card -->
           <div class="card">
-            <div class="card-img">
-              <div class="new">New</div>
+            <div class="card-img pb-5">
               <img
                 src="/assets/images/6pro.webp"
                 alt="Pixel pass"
@@ -226,7 +227,7 @@
           </div>
           <!-- End product card -->
         </div>
-        <div class="right">
+        <div class="right" onclick="scroll_right()">
           <div class="circlebutton">
             <span class="material-symbols-outlined"> arrow_forward </span>
           </div>
@@ -277,7 +278,7 @@
             <button class="material-button">Learn more</button>
           </div>
           <div class="duo-img">
-            <img src="/assets/images/pixelpass.webp" alt="" width="540" />
+            <img src="/assets/images/pixelpass.webp" alt="" width="530" />
           </div>
         </div>
         <div class="switch">
@@ -287,7 +288,7 @@
             <button class="material-button">Learn more</button>
           </div>
           <div class="duo-img">
-            <img src="/assets/images/switch.webp" alt="" width="800" />
+            <img src="/assets/images/switch.webp" alt="" width="600" />
           </div>
         </div>
       </div>
@@ -334,7 +335,7 @@
         <img src="/assets/images/moe.webp" alt="" width="100%" />
       </div>
       <div class="sus-desc">
-        <h2>Putting sustainability to<br />work.</h2>
+        <h2>Putting sustainability to work.</h2>
         <p>
           We’re committed to using recycled or renewable material in all Pixel,
           Nest, and Fitbit products by 2025.
@@ -342,5 +343,6 @@
         <button class="material-button">Learn more</button>
       </div>
     </section>
+    <script src="/js/index.js"></script>
   </body>
 </html>

@@ -54,6 +54,15 @@ body {
   padding-bottom: 10px;
   gap: 15px;
 }
+
+.navlinks a {
+  text-decoration: none;
+  color: #3c4043;
+  transition: all 0.2s ease-in-out;
+}
+.navlinks a:hover {
+  color: #1967d2;
+}
 .logo {
   padding-right: 10px;
 }

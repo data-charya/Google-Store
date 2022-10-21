@@ -139,6 +139,7 @@ section {
 .material-button:hover {
   background-color: #3c4043;
   color: #fff;
+  cursor: pointer;
 }
 
 .button-group {
